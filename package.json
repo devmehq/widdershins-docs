@@ -57,9 +57,9 @@
     "yargs": "^17.2.1"
   },
   "devDependencies": {
-    "mdv": "^1.3.3",
-    "mocha": "^9.1.3",
-    "node-readfiles": "^0.2.0",
-    "nyc": "^15.1.0"
+    "mdv": "1.3.3",
+    "mocha": "9.1.3",
+    "node-readfiles": "0.2.0",
+    "nyc": "15.1.0"
   }
 }
