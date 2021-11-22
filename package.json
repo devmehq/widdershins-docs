@@ -1,6 +1,6 @@
 {
   "name": "widdershins-docs",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "OpenAPI/ Swagger / AsyncAPI / Semoasa definition to Slate / Shins compatible markdown",
   "keywords": [
     "swagger",
