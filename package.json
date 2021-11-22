@@ -1,24 +1,7 @@
 {
-  "name": "widdershins",
+  "name": "widdershins-docs",
   "version": "4.0.1",
   "description": "OpenAPI/ Swagger / AsyncAPI / Semoasa definition to Slate / Shins compatible markdown",
-  "main": "lib/index.js",
-  "bin": {
-    "widdershins": "./widdershins.js",
-    "testRunner": "./testRunner.js"
-  },
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "lint": "npx eslint *.js lib/*.js test/*.js",
-    "shins": "node widdershins --discovery -o ../shins/source/index.html.md defs/petstore.json",
-    "test": "nyc mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mermade/widdershins.git"
-  },
   "keywords": [
     "swagger",
     "openapi",
@@ -31,34 +14,52 @@
     "documentation",
     "semoasa"
   ],
-  "author": "Mike Ralphson",
-  "license": "MIT",
+  "homepage": "https://github.com/devmehq/widdershins-docs#readme",
   "bugs": {
-    "url": "https://github.com/Mermade/widdershins/issues"
+    "url": "https://github.com/devmehq/widdershins-docs/issues"
   },
-  "homepage": "https://github.com/Mermade/widdershins#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmehq/widdershins-docs.git"
+  },
+  "license": "MIT",
+  "author": "DEV.ME",
+  "main": "lib/index.js",
+  "bin": {
+    "testRunner": "./testRunner.js",
+    "widdershins": "./widdershins.js"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "npx eslint *.js lib/*.js test/*.js",
+    "shins": "node widdershins --discovery -o ../shins/source/index.html.md defs/petstore.json",
+    "test": "nyc mocha"
+  },
   "dependencies": {
+    "@readme/httpsnippet": "^3.0.0",
     "dot": "^1.1.3",
     "highlightjs": "^9.16.2",
-    "httpsnippet": "^1.22.0",
+    "httpsnippet": "^2.0.0",
     "jgexml": "^0.4.4",
-    "markdown-it": "^12.1.0",
+    "markdown-it": "^12.2.0",
     "markdown-it-emoji": "^2.0.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.1.0",
     "oas-resolver": "^2.5.6",
     "oas-schema-walker": "^1.1.5",
-    "openapi-sampler": "^1.1.0",
-    "pinyin": "^2.9.1",
+    "openapi-sampler": "^1.1.1",
+    "pinyin": "^2.10.2",
     "reftools": "^1.1.9",
     "swagger2openapi": "^7.0.8",
-    "urijs": "^1.19.2",
-    "yaml": "^1.10.0",
-    "yargs": "^12.0.5"
+    "urijs": "^1.19.7",
+    "yaml": "^1.10.2",
+    "yargs": "^17.2.1"
   },
   "devDependencies": {
-    "mdv": "^1.3.0",
-    "mocha": "^9.0.2",
+    "mdv": "^1.3.3",
+    "mocha": "^9.1.3",
     "node-readfiles": "^0.2.0",
-    "nyc": "^15.0.0"
+    "nyc": "^15.1.0"
   }
 }
