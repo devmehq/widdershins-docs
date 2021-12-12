@@ -238,9 +238,9 @@
     tar "^6.1.11"
 
 "@readme/httpsnippet@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-3.0.0.tgz#5d7fd094c8e44db5895cf1718a5c46842bef0e78"
-  integrity sha512-v6/oCr1nkaYGbCl6blMF51WrOwlEJVZ/D050KQi1kxhD3X2d02FYUUUw1ERAzFjXRmrWI2U0H5NE2IWsiqXvSg==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-3.0.1.tgz#9a22dc02c6eaf23c6ca5dfd5d024e0e81c1e8ab9"
+  integrity sha512-sDB2vKjAUCHfNbLl2LeLZmaTsEuoDwwVVRAtN3nkGjvoAH/qEW46N/GNr98D9ecWDUFYatMVyOi4ZyqzNy7KXw==
   dependencies:
     event-stream "4.0.1"
     form-data "^4.0.0"
