@@ -3,16 +3,16 @@ OpenAPI / Swagger / AsyncAPI / Semoasa definition to [Slate](https://github.com/
 [ReSlate](https://github.com/mermade/reslate) compatible markdown
 
 ![Build](https://img.shields.io/travis/Mermade/widdershins/master.svg) [![Tested on APIs.guru](https://api.apis.guru/badges/tested_on.svg)](https://APIs.guru) [![Tested on Mermade OpenAPIs](https://img.shields.io/badge/Additional%20Specs-419-brightgreen.svg)](https://github.com/mermade/OpenAPI_specifications)
-[![Known Vulnerabilities](https://snyk.io/test/npm/widdershins/badge.svg)](https://snyk.io/test/npm/widdershins)
+[![Known Vulnerabilities](https://snyk.io/test/npm/widdershins-docs/badge.svg)](https://snyk.io/test/npm/widdershins-docs)
 
-<img src="http://mermade.github.io/widdershins/logo.png" width="247px" height="250px" />
+<img src="./docs/logo.png" width="247px" height="250px" />
 
 ### Widdershins *adverb*:
 * In a direction contrary to the sun's course;
 * anticlockwise;
 * helping you produce static documentation from your OpenAPI 3.0 / Swagger 2.0 / AsyncAPI 1.x / Semoasa 0.1.0 definition
 
-![Widdershins screenshot](https://mermade.github.io/widdershins/screenshot.png)
+![Widdershins screenshot](./docs/screenshot.png)
 
 ### News
 
@@ -30,20 +30,20 @@ OpenAPI / Swagger / AsyncAPI / Semoasa definition to [Slate](https://github.com/
 ### To install
 
 * Clone the git repository, and `npm i` to install dependencies, or
-* `npm install -g widdershins` to install globally
+* `npm install -g widdershins-docs` to install globally
 
 ### Getting started
 
-Widdershins is generally used as a stage in an API documentation pipeline. The pipeline begins with an API definition in OpenAPI 3.x, OpenAPI 2.0 (fka Swagger), API Blueprint, AsyncAPI or Semoasa format. Widdershins converts this description into markdown suitable for use by a **renderer**, such as [Slate](https://github.com/slatedocs/slate), [ReSlate](https://github.com/mermade/reslate), [Shins](https://github.com/mermade/shins)  (*deprecated*) or html suitable for use with [ReSpec](https://github.com/w3c/respec).
+Widdershins-dosc is generally used as a stage in an API documentation pipeline. The pipeline begins with an API definition in OpenAPI 3.x, OpenAPI 2.0 (fka Swagger), API Blueprint, AsyncAPI or Semoasa format. Widdershins converts this description into markdown suitable for use by a **renderer**, such as [Slate](https://github.com/slatedocs/slate), [ReSlate](https://github.com/mermade/reslate), [Shins](https://github.com/mermade/shins)  (*deprecated*) or html suitable for use with [ReSpec](https://github.com/w3c/respec).
 
 If you need to create your input API definition, [this list of available editors](https://apis.guru/awesome-openapi3/category.html#editors) may be useful.
 
-More in-depth documentation is [available here](https://mermade.github.io/widdershins).
+More in-depth documentation is [available here](./docs).
 
 ### Examples
 
 ```
-node widdershins --search false --language_tabs 'ruby:Ruby' 'python:Python' --summary defs/petstore3.json -o petstore3.md
+node widdershins-docs --search false --language_tabs 'ruby:Ruby' 'python:Python' --summary defs/petstore3.json -o petstore3.md
 ```
 
 ### Options
@@ -85,7 +85,7 @@ node widdershins --search false --language_tabs 'ruby:Ruby' 'python:Python' --su
 In Node.JS code, create an options object and pass it to the Widdershins `convert` function, as in this example:
 
 ```javascript
-const converter = require('widdershins');
+const converter = require('widdershins-docs');
 let options = {}; // defaults shown
 options.codeSamples = true;
 options.httpsnippet = false;
@@ -223,7 +223,7 @@ For example, this JavaScript code prints the name of the template and the proces
 ```javascript
 'use strict';
 
-const converter = require('widdershins');
+const converter = require('widdershins-docs');
 const fs = require('fs');
 
 let options = {};
