@@ -1709,10 +1709,10 @@ node-preload@^0.2.1:
   dependencies:
     process-on-spawn "^1.0.0"
 
-node-readfiles@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/node-readfiles/-/node-readfiles-0.3.0.tgz#5738b72e3eca16727e1dd61bb0db12acd7d0a2f9"
-  integrity sha512-CjfSRdcDwLm4WM2ylKcIuFTmi9Vv5e3x7YpL7lEpgYvrrZE2TNJ6CMKrp/h7pz60fTzyaUofau7xqvYgi4U09A==
+node-readfiles@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/node-readfiles/-/node-readfiles-0.3.1.tgz#f8519b5da0323de90a1f2aba1a335764e0ccf3c0"
+  integrity sha512-2Gu+SQWWwXbcJm7aImNK4SvYGRC1fZMd2YAiA2EN72OWaV6zRzrV5amZ3dXWXiNG5vwzXZyQTIpNdLNuVUpx7w==
 
 node-readfiles@^0.2.0:
   version "0.2.0"
