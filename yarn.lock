@@ -237,14 +237,15 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@readme/httpsnippet@^3.0.1":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-3.0.2.tgz#150df1cd0c4e029a99a47a54ea523cddb3a0311b"
-  integrity sha512-ooafo5rugDaFUtLI7yKCGvZmG1Pk0jdVXJvO23qB2H+B5pPUAbEpm9usFWWdCJufFykQRB5gPWnqqui3CFD+Tg==
+"@readme/httpsnippet@^4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-4.0.3.tgz#469e467c27d04066dbce9f26ff42ee705a27c5a3"
+  integrity sha512-1QExCC4DPJxsUeyvBlsicaRIHpVfIKiKo+ukkxpeazoQl0S/idrdNh/S/A4IHkNO3dIPoj2NGT+0onq2Tk5+7w==
   dependencies:
+    ajv "^6.12.6"
     event-stream "4.0.1"
     form-data "^4.0.0"
-    har-validator "^5.0.0"
+    har-schema "^2.0.0"
     qs "^6.10.1"
     stringify-object "^3.3.0"
 
@@ -285,7 +286,7 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-ajv@^6.12.3:
+ajv@^6.12.3, ajv@^6.12.6:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   integrity sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
