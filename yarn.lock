@@ -237,10 +237,10 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@readme/httpsnippet@^6.0.0":
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-6.2.1.tgz#84046faa8e659e1f6cc12f433a40df7d34c50562"
-  integrity sha512-78XI0YPhaYHjrLaCxfnXTjDiiiQvZz4fFeDpRdSAO1OU3+8mHfjZlv197R8b03y2RjpA9vlMmUE2LMbgnnJfOQ==
+"@readme/httpsnippet@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-7.0.0.tgz#2cc754801db0684c46a87162e2bf4793c2c8a423"
+  integrity sha512-L+5zfpAtOe1ThaOZfwxrc9q5fP/VxWKErBQp5UTygellVt+RayiZ6QSFn5qFSLuE0ZFPXd6TrVqGTxICTDwsOQ==
   dependencies:
     event-stream "4.0.1"
     form-data "^4.0.0"
