@@ -206,6 +206,11 @@
   resolved "https://registry.yarnpkg.com/@exodus/schemasafe/-/schemasafe-1.0.0-rc.6.tgz#7985f681564cff4ffaebb5896eb4be20af3aae7a"
   integrity sha512-dDnQizD94EdBwEj/fh3zPRa/HWCS9O5au2PuHhZBbuM3xWHxuaKzPBOEWze7Nn0xW68MIpZ7Xdyn1CoCpjKCuQ==
 
+"@fastify/busboy@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
+  integrity sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -237,13 +242,12 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
-"@readme/httpsnippet@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-7.0.0.tgz#2cc754801db0684c46a87162e2bf4793c2c8a423"
-  integrity sha512-L+5zfpAtOe1ThaOZfwxrc9q5fP/VxWKErBQp5UTygellVt+RayiZ6QSFn5qFSLuE0ZFPXd6TrVqGTxICTDwsOQ==
+"@readme/httpsnippet@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-8.0.0.tgz#62d54f108aaef43b0ab42794f8fe803e6cf8ba16"
+  integrity sha512-nWTUffGY3qb578JY1hP7kI9DB9wjx2+nORDatoF0tyLrrkyDaszRfDNIES08e0UcaO/bxeZ+Hi6rUvfYW2xK6w==
   dependencies:
-    event-stream "4.0.1"
-    form-data "^4.0.0"
+    formdata-to-string "^1.1.0"
     qs "^6.11.2"
     stringify-object "^3.3.0"
 
@@ -890,7 +894,7 @@ foreground-child@^2.0.0:
     cross-spawn "^7.0.0"
     signal-exit "^3.0.2"
 
-form-data@4.0.0, form-data@^4.0.0:
+form-data@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
   integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
@@ -905,6 +909,13 @@ formdata-polyfill@^4.0.10:
   integrity sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==
   dependencies:
     fetch-blob "^3.1.2"
+
+formdata-to-string@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/formdata-to-string/-/formdata-to-string-1.1.0.tgz#2c67f6040b8f88edc88d99bc32b05badda74c22d"
+  integrity sha512-f+jVhrBYfgRsHnOBL+1djGwZ4qOAXiIz/JrV1qHIE1cJ30b6IxKWmNmWybxR7vgXYhBHVHeqcbhtGE5J5OAXxQ==
+  dependencies:
+    undici "^5.24.0"
 
 from@^0.1.7:
   version "0.1.7"
@@ -2293,6 +2304,13 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
+
+undici@^5.24.0:
+  version "5.25.4"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.25.4.tgz#7d8ef81d94f84cd384986271e5e5599b6dff4296"
+  integrity sha512-450yJxT29qKMf3aoudzFpIciqpx6Pji3hEWaXqXmanbXF58LTAGCKxcJjxMXWu3iG+Mudgo3ZUfDB6YDFd/dAw==
+  dependencies:
+    "@fastify/busboy" "^2.0.0"
 
 urijs@^1.19.7:
   version "1.19.11"
