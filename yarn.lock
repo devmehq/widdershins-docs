@@ -243,11 +243,11 @@
     tar "^6.1.11"
 
 "@readme/httpsnippet@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-8.0.0.tgz#62d54f108aaef43b0ab42794f8fe803e6cf8ba16"
-  integrity sha512-nWTUffGY3qb578JY1hP7kI9DB9wjx2+nORDatoF0tyLrrkyDaszRfDNIES08e0UcaO/bxeZ+Hi6rUvfYW2xK6w==
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-8.0.1.tgz#ace4b77f83580865d6752e14ce79759c908ffb8b"
+  integrity sha512-gqD8hRlQcyemWNFPtSqOAWrEqXyDfCgi0dK0+dANhgaACCW6OTHWwZFLXOBcYY8g408Ndus80ZCAZSfWZEvBOA==
   dependencies:
-    formdata-to-string "^1.1.0"
+    formdata-to-string "^2.0.0"
     qs "^6.11.2"
     stringify-object "^3.3.0"
 
@@ -910,10 +910,10 @@ formdata-polyfill@^4.0.10:
   dependencies:
     fetch-blob "^3.1.2"
 
-formdata-to-string@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/formdata-to-string/-/formdata-to-string-1.1.0.tgz#2c67f6040b8f88edc88d99bc32b05badda74c22d"
-  integrity sha512-f+jVhrBYfgRsHnOBL+1djGwZ4qOAXiIz/JrV1qHIE1cJ30b6IxKWmNmWybxR7vgXYhBHVHeqcbhtGE5J5OAXxQ==
+formdata-to-string@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/formdata-to-string/-/formdata-to-string-2.0.0.tgz#3fe191c919e745c6a81f89481473cfbfb026f0e2"
+  integrity sha512-jU9hZPj5totkwtwlfwkglElnmxumzAMSjaYQkVv0WcY3bOQeOduoVjnm1OVpeQextS+sXtjKjQUrFWUB8MWUzA==
   dependencies:
     undici "^5.24.0"
 
@@ -945,9 +945,9 @@ fsevents@~2.3.2:
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 function-bind@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
-  integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.2.tgz#2c02d864d97f3ea6c8830c464cbd11ab6eab7a1c"
+  integrity sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==
 
 gauge@^3.0.0:
   version "3.0.2"
@@ -1066,11 +1066,9 @@ has-unicode@^2.0.1:
   integrity sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==
 
 has@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
-  integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
-  dependencies:
-    function-bind "^1.1.1"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/has/-/has-1.0.4.tgz#2eb2860e000011dae4f1406a86fe80e530fb2ec6"
+  integrity sha512-qdSAmqLF6209RFj4VVItywPMbm3vWylknmB3nvNiUIs72xAimcM8nVYxYr7ncvZq5qzk9MKIZR8ijqD/1QuYjQ==
 
 hasha@^5.0.0:
   version "5.2.2"
@@ -2306,9 +2304,9 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
 
 undici@^5.24.0:
-  version "5.25.4"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.25.4.tgz#7d8ef81d94f84cd384986271e5e5599b6dff4296"
-  integrity sha512-450yJxT29qKMf3aoudzFpIciqpx6Pji3hEWaXqXmanbXF58LTAGCKxcJjxMXWu3iG+Mudgo3ZUfDB6YDFd/dAw==
+  version "5.26.3"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.26.3.tgz#ab3527b3d5bb25b12f898dfd22165d472dd71b79"
+  integrity sha512-H7n2zmKEWgOllKkIUkLvFmsJQj062lSm3uA4EYApG8gLuiOM0/go9bIoC3HVaSnfg4xunowDE2i9p8drkXuvDw==
   dependencies:
     "@fastify/busboy" "^2.0.0"
 
@@ -2432,9 +2430,9 @@ yaml@^1.10.0, yaml@^1.9.2:
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
 yaml@^2.0.0:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.3.2.tgz#f522db4313c671a0ca963a75670f1c12ea909144"
-  integrity sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.3.3.tgz#01f6d18ef036446340007db8e016810e5d64aad9"
+  integrity sha512-zw0VAJxgeZ6+++/su5AFoqBbZbrEakwu+X0M5HmcwUiBL7AzcuPKjj5we4xfQLp78LkEMpD0cOnUhmgOVy3KdQ==
 
 yargs-parser@20.2.4:
   version "20.2.4"
