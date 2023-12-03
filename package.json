@@ -34,7 +34,7 @@
   },
   "scripts": {
     "lint": "npx eslint *.js lib/*.js test/*.js",
-    "shins": "node widdershins --discovery -o ../shins/source/index.html.md defs/petstore.json",
+    "shins": "node widdershins --discovery -o ./shins/source/index.html.md defs/petstore.json",
     "test": "nyc mocha"
   },
   "dependencies": {

@@ -6,7 +6,7 @@ const path = require('path');
 const url = require('url');
 
 const yaml = require('yaml');
-const fetch = require('node-fetch');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 const converter = require('./lib/index.js');
 
