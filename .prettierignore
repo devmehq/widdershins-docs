@@ -1,0 +1,8 @@
+.env
+.prettierignore
+node_modules
+prod_node_modules
+yarn.lock
+nodemon.json
+.yarnrc
+public
