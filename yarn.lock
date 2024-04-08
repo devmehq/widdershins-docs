@@ -350,12 +350,11 @@
     "@node-rs/jieba-win32-ia32-msvc" "1.7.2"
     "@node-rs/jieba-win32-x64-msvc" "1.7.2"
 
-"@readme/httpsnippet@^8.1.4":
-  version "8.1.4"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-8.1.4.tgz#7c0f53405889003d4f14a460fbf655f1624f48b3"
-  integrity sha512-yErc2zjfYWPL14gnaY9So34aCzJ+CTIW3CrFVeD5fhbuMmn4rIHHhhgIMzpQAUHYxk8JPGRBUlXodgVFQ+FzSQ==
+"@readme/httpsnippet@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-9.0.0.tgz#2fc7d8d61e072104d6f1658897e72d76442a7a64"
+  integrity sha512-lsiaG+AtvL3MKpP7OFWF087nXipbd/u5cpMRo35gQL2U/y/Dq+QXXS9g4uA7CV3bBtEadxeyEiKH0yiIFcFJmQ==
   dependencies:
-    formdata-to-string "^2.0.2"
     qs "^6.11.2"
     stringify-object "^3.3.0"
 
@@ -1043,11 +1042,6 @@ formdata-polyfill@^4.0.10:
   integrity sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==
   dependencies:
     fetch-blob "^3.1.2"
-
-formdata-to-string@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/formdata-to-string/-/formdata-to-string-2.0.2.tgz#b419e70c9ac2cceb8dfa3e9e1f012c4976e75f99"
-  integrity sha512-OxurQikLgzU3+AhBCb2Or7pV2+dQWMSi1r4ZmhGMZ/WxVLOfUCqB2hqK5EwTGSzN9O/dx9uw5Mln/vtG1t0XbQ==
 
 from@^0.1.7:
   version "0.1.7"
