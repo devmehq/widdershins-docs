@@ -351,9 +351,9 @@
     "@node-rs/jieba-win32-x64-msvc" "1.7.2"
 
 "@readme/httpsnippet@^10.0.0":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-10.0.2.tgz#3f9c7c0657575c236564ef4d7be9e4fb13cb6512"
-  integrity sha512-frJaJKtJ+ue3ZXiIeSugjNE7pHuJNdqIAiu06ta+cdKL8rKSlh/M6s1CeflVy0nox587ymvGF753vRsb7NYMqg==
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-10.0.3.tgz#5dbace7ed594e369cebafebe1d23a1e84b97b900"
+  integrity sha512-/MgXvc6LdfmjMZloFMpq+wHc2DezlC/6kpgS+Zz/0/Pp9JCTRZVsRZ+97juzxqsiDit2AvryXwLwMLX8eRswyA==
   dependencies:
     qs "^6.11.2"
     stringify-object "^3.3.0"
