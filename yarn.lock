@@ -1967,9 +1967,9 @@ open@^8.2.1:
     is-wsl "^2.2.0"
 
 openapi-sampler@^1.4.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/openapi-sampler/-/openapi-sampler-1.5.0.tgz#6d19f4668471b2629e724b16e5fcefbb2047cc33"
-  integrity sha512-6aZ/C0/1Dr3NoIuEy+CcavOsH49I8x0jHjik0kOuNmT+qmBLPrDWMncIQhrd0zbsd/zCVzfb9Vn3BZGFGTLn7A==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/openapi-sampler/-/openapi-sampler-1.5.1.tgz#2b0145179abb0d75eaf50c82b86ef044d22bd671"
+  integrity sha512-tIWIrZUKNAsbqf3bd9U1oH6JEXo8LNYuDlXw26By67EygpjT+ArFnsxxyTMjFWRfbqo5ozkvgSQDK69Gd8CddA==
   dependencies:
     "@types/json-schema" "^7.0.7"
     json-pointer "0.6.2"
