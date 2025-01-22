@@ -391,10 +391,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@readme/httpsnippet@^10.0.0":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-10.1.1.tgz#390c896013e15cf7ce9979e29de0ea329e956e9e"
-  integrity sha512-bFZqonC5RZNRYMNScTpLLY5v1cIlMoaF9imlwzi2+Vh3xtheaCb2wtX7dNJETiYpjCeCHKEI7jADyqmVeePMcA==
+"@readme/httpsnippet@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@readme/httpsnippet/-/httpsnippet-11.0.0.tgz#8b83a5b718fc55fda63f2a48c82e5cdab0ab1212"
+  integrity sha512-XSyaAsJkZfmMO9R4WDlVJARZgd4wlImftSkMkKclidniXA1h6DTya9iTqJenQo9mHQLh3u6kAC3CDRaIV+LbLw==
   dependencies:
     qs "^6.11.2"
     stringify-object "^3.3.0"
